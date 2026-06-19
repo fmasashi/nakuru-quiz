@@ -1169,17 +1169,10 @@ const ALL_QUESTIONS = [
     source: "diverse.direct / ototoy.jp"
   },
   {
-    question: "「ミシュメリア」でかめりあが作詞・作曲を手がけた楽曲は？",
+    question: "「ミシュメリア」でかめりあが楽曲提供した曲名は？",
     choices: ["Tuliparfeit", "逆沙華", "Fragile Utopia", "Lucid Hallucination"],
     correct: 0,
-    explanation: "かめりあ（Camellia）が作詞・作曲を手がけた「Tuliparfeit」は『ミシュメリア』の4曲目に収録されています。音楽ゲームで知られるかめりあの楽曲らしい、複雑なリズムと美しいメロディが特徴の一曲です。",
-    source: "diverse.direct / vgmdb.net"
-  },
-  {
-    question: "「ミシュメリア」の表題曲の作曲者は？",
-    choices: ["bermei.inazawa", "グシミヤギヒデユキ", "かめりあ", "Feryquitous"],
-    correct: 0,
-    explanation: "表題曲「ミシュメリア」の作曲はbermei.inazawa、作詞は藍月なくる本人が担当しました。bermei.inazawaは「霧の都の夜想曲」などでも知られるコンポーザーで、毒花というテーマに相応しい妖艶なサウンドを作り上げています。",
+    explanation: "かめりあ（Camellia）が作詞・作曲を手がけた「Tuliparfeit」は『ミシュメリア』の4曲目に収録されています。かめりあはSOUND VOLTEXやbeatmania IIDXなどで「ΩΩPARTS」「Xronial Xero」などを手がけた音楽ゲーム界の大御所コンポーザー。そんなかめりあが藍月なくるに楽曲提供したことは、なくるの音楽ゲーム界での存在感の大きさを物語っています。",
     source: "diverse.direct / vgmdb.net"
   },
   {
@@ -1195,20 +1188,6 @@ const ALL_QUESTIONS = [
     correct: 0,
     explanation: "『Indigrotto』は2022年4月24日のM3-49（2022年春）で初頒布されたアルバムです。全6曲収録で「Indigrotto」「夢の呼応」「Settlement」「Killer neuron」「Codependence」「Rest in Peace my Dear.」が含まれています。",
     source: "ototoy.jp / acgjc.com"
-  },
-  {
-    question: "「Nacollection -3-」に収録された楽曲「Azura Luno」の作曲者は？",
-    choices: ["RD-Sounds", "sky_delta", "かめりあ", "bermei.inazawa"],
-    correct: 0,
-    explanation: "「Azura Luno」はRD-Soundsが作曲した楽曲で、『Nacollection -3-』の1曲目に収録されています。1st LIVE「クラリムステラ」のセットリストにも含まれた、なくるのソロ楽曲の中でも特に人気の高い一曲です。",
-    source: "recochoku.jp / note.com"
-  },
-  {
-    question: "「Nacollection4」に収録されている楽曲「Cosmodiver」の作曲者は？",
-    choices: ["かそかそ", "sky_delta", "Akki", "RD-Sounds"],
-    correct: 0,
-    explanation: "「Cosmodiver」はかそかそが作曲、棗いつきが作詞を手がけた楽曲です。『Nacollection4』（2023年12月、M3-2023秋頒布）の1曲目に収録されており、1st LIVE「クラリムステラ」でも披露されました。",
-    source: "dojin-music.info / note.com"
   },
   // ===== カテゴリ: ゲームタイアップ =====
   {
@@ -1302,7 +1281,7 @@ const ALL_QUESTIONS = [
     question: "2024年に藍月なくるがゲーム内コラボしたタイトルと、コラボイベント名は？",
     choices: ["パルティグランデ「アクアリウムのその先に」", "プロジェクトセカイ「月と星の旋律」", "原神「潮風の歌声」", "ブルーアーカイブ「深海のセレナーデ」"],
     correct: 0,
-    explanation: "2024年9月30日から10月31日にかけて、ゲーム『パルティグランデ』にて藍月なくるコラボイベント「アクアリウムのその先に」が開催されました。ゲーム内キャラクターとして登場し、限定ガチャも実施されました。",
+    explanation: "2024年9月30日から10月31日にかけて、リズムゲーム『パルティグランデ』にて藍月なくるコラボイベント「アクアリウムのその先に」が開催されました。なくるがゲーム内キャラクターとして登場し、限定ガチャ「アクアリウムのその先に」でコラボ限定カードが入手可能に。さらにコラボ楽曲もゲーム内に収録され、プレイできるようになりました。クラゲやアクアリウムをモチーフにした、なくるらしいコラボ内容が話題を呼びました。",
     source: "PR TIMES"
   },
   // ===== カテゴリ: TVアニメタイアップ =====
@@ -1332,37 +1311,22 @@ const ALL_QUESTIONS = [
     question: "藍月なくるがTRPGから舞台化された作品「カタシロ」に出演した際の役は？",
     choices: ["もう一人の患者役", "主人公役", "ナレーション", "医者役"],
     correct: 0,
-    explanation: "舞台版『カタシロ〜Relive vol.1〜』に「もう一人の患者役」として出演しました。元々TRPG配信で演じていた作品が舞台化されたもので、TRPG出身のパフォーマーとして実際の舞台に立つという珍しい形での出演です。",
-    source: "kai-you.net / 4gamer.net"
-  },
-  // ===== カテゴリ: ILLUAMORクレジット =====
-  {
-    question: "9thアルバム「ILLUAMOR」の表題曲の作曲者は？",
-    choices: ["Laur", "グシミヤギヒデユキ", "香椎モイミ", "みゅー（Imy）"],
-    correct: 0,
-    explanation: "「ILLUAMOR」の表題曲はLaurが作曲・作詞を担当しました。Laurはハードコアやアートコア系の楽曲で知られるコンポーザーで、SOUND VOLTEX等の音楽ゲームにも多数の楽曲を提供しています。アルバムタイトルにもなった表題曲にふさわしい、華やかかつ激しい一曲です。",
-    source: "diverse.direct / aitsukinakuru.com"
+    explanation: "舞台版『カタシロ〜Relive vol.1〜』に「もう一人の患者役」として出演しました。原作はディズム氏が手がけた人気TRPGシナリオで、2024年12月にPARCO劇場にて上演。舞台上で出演者が生身でTRPGをプレイする「即興劇」形式で、結末がプレイヤー次第で変わる一度限りの物語です。ディズム氏自身がゲームマスター（医者役）として全公演に出演しました。",
+    source: "parco.jp / kai-you.net"
   },
   {
-    question: "「ILLUAMOR」で藍月なくる自身が作詞を手がけた楽曲は？",
-    choices: ["煌命残滓", "ロマネスクミラージュ", "幻想ラチェット", "なくなっちゃった。"],
+    question: "舞台『カタシロ〜Relive〜』の原作TRPGシナリオの作者は？",
+    choices: ["ディズム", "冒険企画局", "グループSNE", "坂本雅之"],
     correct: 0,
-    explanation: "「煌命残滓」は藍月なくる自身が作詞を手がけた楽曲で、作編曲はみゅー（Imy）が担当しました。アルバムのラストを飾る6曲目に配置されており、なくる本人の想いが込められた締めくくりの一曲です。なお、「ロマネスクミラージュ」の作詞は棗いつきが担当しています。",
-    source: "diverse.direct / aitsukinakuru.com"
+    explanation: "「カタシロ」はディズム氏が手がけたTRPGシナリオです。TRPGシナリオ界で高い人気を誇り、2024年12月にPARCO劇場で舞台『カタシロ〜Relive vol.1〜』として上演され、2025年8月にはVol.2も上演されました。ディズム氏は脚本・演出に加え、ゲームマスター（医者役）として全公演に出演しています。",
+    source: "parco.jp / prtimes.jp"
   },
   {
-    question: "「ILLUAMOR」に収録されている「幻想ラチェット」の作曲者は？",
-    choices: ["香椎モイミ", "Laur", "かぼちゃ", "アメリカ民謡研究会"],
+    question: "舞台『カタシロ〜Relive vol.1〜』が上演された劇場は？",
+    choices: ["PARCO劇場", "紀伊國屋ホール", "シアタークリエ", "サンシャイン劇場"],
     correct: 0,
-    explanation: "「幻想ラチェット」は香椎モイミが作曲・作詞を手がけた楽曲です。香椎モイミはVOCALOIDプロデューサーとしても活動しており、「初恋日記」など藍月なくるがカバーした楽曲の原曲作者としても知られています。MVではキャラクターデザイン・アニメーションを毒々チモシーが担当しました。",
-    source: "diverse.direct / YouTube"
-  },
-  {
-    question: "「ILLUAMOR」の「ロマネスクミラージュ」の作詞者は？",
-    choices: ["棗いつき", "藍月なくる", "Laur", "グシミヤギヒデユキ"],
-    correct: 0,
-    explanation: "「ロマネスクミラージュ」の作詞は棗いつきが担当しました。作編曲はグシミヤギヒデユキ。La priereやいつきんくるでの活動パートナーである棗いつきが、なくるのソロアルバムに作詞で参加するという、2人の信頼関係が表れた一曲です。",
-    source: "diverse.direct / aitsukinakuru.com"
+    explanation: "舞台『カタシロ〜Relive vol.1〜』は2024年12月にPARCO劇場（渋谷PARCO内）にて上演されました。TRPG配信出身のパフォーマーたちが渋谷のメジャーな劇場で舞台に立つという異例の展開で、TRPG文化が舞台芸術と融合した先駆的な公演として注目を集めました。",
+    source: "parco.jp / ananweb.jp"
   }
 ];
 
