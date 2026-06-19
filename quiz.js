@@ -331,7 +331,7 @@ const ALL_QUESTIONS = [
     question: "Endorfin.（藍月なくる×sky_delta）の代表曲で、SOUND VOLTEXに収録されている楽曲は？",
     choices: ["Four Leaves", "Blue Moon", "Star Light", "Night Sky"],
     correct: 0,
-    explanation: "『Four Leaves』はEndorfin.の代表曲の一つで、SOUND VOLTEXに収録されています。",
+    explanation: "『Four Leaves』はEndorfin.の代表曲の一つで、SOUND VOLTEX IV制作決定記念オリジナル楽曲コンテストで採用されました。sky_deltaの緻密な電子音と藍月なくるの透明感ある歌声が融合した楽曲で、後にjubeatにも移植されるなど、音ゲープレイヤーからの支持が高い一曲です。",
     source: "BEMANI Wiki / Wikipedia"
   },
   {
@@ -408,7 +408,7 @@ const ALL_QUESTIONS = [
     question: "藍月なくるのベストアルバムのタイトルは？",
     choices: ["真相", "告白", "深層", "全貌"],
     correct: 0,
-    explanation: "ベストアルバム『真相』は、藍月なくるのソロ活動を振り返る集大成的な作品です。これまでの代表曲が収録されており、ファンにとって必携の一枚となっています。",
+    explanation: "ベストアルバム『真相』は2025年にリリースされた、藍月なくるのソロ活動を振り返る集大成的な作品です。「FAKE IDOL」「Evil Bubble」などの代表的なオリジナル楽曲が収録されており、Nacollectionシリーズやコンセプトアルバムに散らばった人気曲を一枚で聴ける、入門にもおすすめの作品です。",
     source: "aitsukinakuru.shop / 公式サイト"
   },
   {
@@ -702,7 +702,7 @@ const ALL_QUESTIONS = [
     question: "藍月なくるの6thアルバムのタイトルは？",
     choices: ["Transpain", "Counterfeit", "Nacollection -3-", "JelLaboratory"],
     correct: 0,
-    explanation: "6thアルバム『Transpain』は、様々な感情を音楽で表現した作品です。Nacollectionシリーズとは異なるコンセプトアルバムとしてリリースされました。",
+    explanation: "6thアルバム『Transpain』は2020年に発表された作品です。タイトルは「Trans（越える）」と「Pain（痛み）」を組み合わせた造語で、痛みを越えていく感情の変遷をテーマにしたコンセプトアルバム。Nacollectionシリーズのコレクション的な構成とは異なり、一つのテーマを深く掘り下げた意欲作です。",
     source: "aitsukinakuru.com / BOOTH"
   },
   {
@@ -821,7 +821,7 @@ const ALL_QUESTIONS = [
     question: "藍月なくるの初の全国流通ソロシングルのタイトルは？",
     choices: ["何も知らないまま。", "FAKE IDOL", "Luminous Rage", "これくらいで"],
     correct: 0,
-    explanation: "2024年12月18日にリリースされた「何も知らないまま。」は、藍月なくるにとって初の全国流通ソロシングルです。",
+    explanation: "2024年12月18日にリリースされた「何も知らないまま。」は、藍月なくるにとって初の全国流通ソロシングルです。アメリカ民謡研究会のHaniwaが作曲を手がけ、カップリング曲「キラアメイド」も収録。同人即売会で活動を積み上げてきたなくるが、全国のCDショップに作品を並べるという大きな節目となった一枚です。",
     source: "aitsukinakuru.com / レコチョク"
   },
   {
@@ -1198,19 +1198,6 @@ const ALL_QUESTIONS = [
     source: "hookah-haze.com / famitsu.com"
   },
   {
-    question: "藍月なくるが主題歌を歌ったゲーム「Hookah Haze」の開発元は？",
-    choices: ["アクワイア", "フロム・ソフトウェア", "アトラス", "日本ファルコム"],
-    correct: 0,
-    explanation: "『Hookah Haze』はアクワイアが企画・開発し、アニプレックスが販売するヒューマンドラマアドベンチャーゲームです。シーシャ（水タバコ）バーを舞台にした物語で、藍月なくるが歌う主題歌「Hookah, whoo!」が作品の世界観を彩っています。",
-    source: "hookah-haze.com / impress.co.jp"
-  },
-  {
-    question: "藍月なくるの初の全国流通ソロシングル「何も知らないまま。」の作曲者は？",
-    choices: ["Haniwa（アメリカ民謡研究会）", "DECO*27", "sky_delta", "かめりあ"],
-    correct: 0,
-    explanation: "2024年12月18日リリースの初全国流通ソロシングル「何も知らないまま。」は、アメリカ民謡研究会のHaniwaが作曲を手がけました。カップリング曲「キラアメイド」はtepe（OTOIRO）が担当。各曲のインストを含む全4トラック収録です。",
-    source: "aitsukinakuru.com / diverse.direct"
-  },
   // ===== カテゴリ: MVクリエイター =====
   {
     question: "「エモーション・キャプチャー」のMVイラストを担当した韓国出身のイラストレーターは？",
@@ -1223,7 +1210,7 @@ const ALL_QUESTIONS = [
     question: "「フェイク」（Feryquitous feat. 藍月なくる）のMV映像制作を担当したのは？",
     choices: ["足立柑橘", "沼田ゾンビ", "千金楽らう", "古渡勧"],
     correct: 0,
-    explanation: "「フェイク」のMV映像は足立柑橘が制作しました。イラストは茲助が担当。Feryquitous（フェリキタス）と藍月なくるのコラボ楽曲で、『Nacollection -3-』にも収録されています。",
+    explanation: "「フェイク」のMV映像は足立柑橘が制作し、イラストは茲助が担当しました。Feryquitous（フェリキタス）と藍月なくるのコラボ楽曲で、『Nacollection -3-』にも収録。Feryquitousは「月詠に鳴る」（CHUNITHM収録）でもなくるとコラボしており、音楽ゲーム界での繋がりが深いコンポーザーです。",
     source: "YouTube MV概要欄"
   },
   {
@@ -1684,13 +1671,17 @@ function selectAnswer(index) {
     state.streak++;
     if (state.streak > state.maxStreak) state.maxStreak = state.streak;
 
-    let points = 100;
-    if (state.streak >= 5) points += 50;
-    else if (state.streak >= 3) points += 20;
+    // Base 100 + 30 per consecutive streak (streak 1=100, 2=130, 3=160, 4=190...)
+    let points = 100 + Math.max(0, (state.streak - 1) * 30);
     state.score += points;
 
     dom.score.textContent = state.score;
-    showScorePopup(`+${points}`);
+    const streakBonus = (state.streak - 1) * 30;
+    if (streakBonus > 0) {
+      showScorePopup(`+${points} (${state.streak}連続!)`);
+    } else {
+      showScorePopup(`+${points}`);
+    }
 
     if (state.streak >= 3) {
       dom.resultIcon.innerHTML = `<span class="icon-streak">${state.streak}</span>`;
@@ -1701,8 +1692,8 @@ function selectAnswer(index) {
     }
 
     const messages = ['正解！', 'すごい！', 'さすが！', 'パーフェクト！'];
-    dom.resultText.textContent = state.streak >= 5
-      ? `${state.streak}連続正解！`
+    dom.resultText.textContent = state.streak >= 3
+      ? `${state.streak}連続正解！ +${points}pts`
       : pickRandom(messages);
     dom.resultText.className = 'result-text correct';
   } else {
