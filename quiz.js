@@ -1313,20 +1313,6 @@ const ALL_QUESTIONS = [
     correct: 0,
     explanation: "舞台版『カタシロ〜Relive vol.1〜』に「もう一人の患者役」として出演しました。原作はディズム氏が手がけた人気TRPGシナリオで、2024年12月にPARCO劇場にて上演。舞台上で出演者が生身でTRPGをプレイする「即興劇」形式で、結末がプレイヤー次第で変わる一度限りの物語です。ディズム氏自身がゲームマスター（医者役）として全公演に出演しました。",
     source: "parco.jp / kai-you.net"
-  },
-  {
-    question: "舞台『カタシロ〜Relive〜』の原作TRPGシナリオの作者は？",
-    choices: ["ディズム", "冒険企画局", "グループSNE", "坂本雅之"],
-    correct: 0,
-    explanation: "「カタシロ」はディズム氏が手がけたTRPGシナリオです。TRPGシナリオ界で高い人気を誇り、2024年12月にPARCO劇場で舞台『カタシロ〜Relive vol.1〜』として上演され、2025年8月にはVol.2も上演されました。ディズム氏は脚本・演出に加え、ゲームマスター（医者役）として全公演に出演しています。",
-    source: "parco.jp / prtimes.jp"
-  },
-  {
-    question: "舞台『カタシロ〜Relive vol.1〜』が上演された劇場は？",
-    choices: ["PARCO劇場", "紀伊國屋ホール", "シアタークリエ", "サンシャイン劇場"],
-    correct: 0,
-    explanation: "舞台『カタシロ〜Relive vol.1〜』は2024年12月にPARCO劇場（渋谷PARCO内）にて上演されました。TRPG配信出身のパフォーマーたちが渋谷のメジャーな劇場で舞台に立つという異例の展開で、TRPG文化が舞台芸術と融合した先駆的な公演として注目を集めました。",
-    source: "parco.jp / ananweb.jp"
   }
 ];
 
