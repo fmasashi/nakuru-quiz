@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="藍月なくる（Aitsuki Nakuru）のエピソードや豆知識に関する4択クイズ。あなたはどれだけなくちゃを知っている？">
+  <title>藍月なくる エピソードクイズ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-effects">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="jellyfish-container">
+      <div class="jellyfish jf-1">&#x25CB;</div>
+      <div class="jellyfish jf-2">&#x25CB;</div>
+      <div class="jellyfish jf-3">&#x25CB;</div>
+    </div>
+  </div>
+
+  <div id="app">
+    <!-- Start Screen -->
+    <div id="screen-start" class="screen active">
+      <div class="card glass-card start-card">
+        <div class="logo-area">
+          <div class="logo-icon">&#9834;</div>
+          <h1 id="main-title">藍月なくる<br><span class="sub-title">エピソードクイズ</span></h1>
+        </div>
+        <p class="description">藍月なくるにまつわるエピソードや<br>豆知識を4択クイズで出題！</p>
+
+        <!-- Settings -->
+        <div class="settings-row dual">
+          <div class="setting-group">
+            <p class="label">出題数</p>
+            <div class="chip-options" id="count-options">
+              <button class="chip active" data-count="10">10問</button>
+              <button class="chip" data-count="25">25問</button>
+              <button class="chip" data-count="0">全問</button>
+            </div>
+          </div>
+          <div class="setting-group">
+            <p class="label">制限時間</p>
+            <div class="chip-options" id="time-options">
+              <button class="chip" data-time="15">15秒</button>
+              <button class="chip active" data-time="20">20秒</button>
+              <button class="chip" data-time="0">なし</button>
+            </div>
+          </div>
+        </div>
+
+        <button id="btn-start" class="btn-primary">
+          <span class="btn-text">スタート</span>
+          <span class="btn-icon">&#9654;</span>
+        </button>
+        <p class="song-count-info">全 <span id="total-questions">15</span> 問収録</p>
+      </div>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="screen-quiz" class="screen">
+      <div class="quiz-header">
+        <div class="stats-bar">
+          <div class="stat-item">
+            <span class="stat-label">スコア</span>
+            <span class="stat-value" id="score">0</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-label">問題</span>
+            <span class="stat-value"><span id="current-q">1</span> / <span id="total-q">10</span></span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-label">連続</span>
+            <span class="stat-value" id="streak">0</span>
+          </div>
+          <button class="btn-quit" id="btn-quit" title="タイトルに戻る">&#x2715;</button>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+      </div>
+
+      <div class="card glass-card quiz-card">
+        <!-- Timer -->
+        <div class="timer-bar">
+          <div class="timer-fill" id="timer-fill"></div>
+        </div>
+
+        <!-- Question -->
+        <div class="question-area" id="question-area">
+          <div class="question-number" id="question-number">Q.1</div>
+          <h2 class="question-text" id="question-text"></h2>
+        </div>
+
+        <!-- Choices -->
+        <div class="choices-area" id="choices-area">
+          <!-- Dynamically generated -->
+        </div>
+
+        <!-- Result / Explanation -->
+        <div class="result-area hidden" id="result-area">
+          <div class="result-icon" id="result-icon"></div>
+          <p class="result-text" id="result-text"></p>
+          <div class="explanation-box" id="explanation-box">
+            <p class="explanation-text" id="explanation-text"></p>
+            <p class="explanation-source" id="explanation-source"></p>
+          </div>
+          <button class="btn-primary btn-next" id="btn-next">
+            <span class="btn-text">次の問題</span>
+            <span class="btn-icon">&rarr;</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Result Screen -->
+    <div id="screen-result" class="screen">
+      <div class="card glass-card result-card">
+        <div class="result-header">
+          <div class="trophy-icon"></div>
+          <h2>クイズ終了！</h2>
+        </div>
+        <div class="final-stats">
+          <div class="final-stat">
+            <span class="final-stat-value" id="final-score">0</span>
+            <span class="final-stat-label">スコア</span>
+          </div>
+          <div class="final-stat">
+            <span class="final-stat-value" id="final-correct">0</span>
+            <span class="final-stat-label">正解数</span>
+          </div>
+          <div class="final-stat">
+            <span class="final-stat-value" id="final-streak">0</span>
+            <span class="final-stat-label">最大連続</span>
+          </div>
+          <div class="final-stat">
+            <span class="final-stat-value" id="final-accuracy">0%</span>
+            <span class="final-stat-label">正答率</span>
+          </div>
+        </div>
+        <div class="rank-display">
+          <span class="rank-label">ランク</span>
+          <span class="rank-value" id="rank-value">-</span>
+        </div>
+        <p class="rank-message" id="rank-message"></p>
+        <div class="result-buttons">
+          <button class="btn-primary" id="btn-restart">
+            <span class="btn-text">もう一度プレイ</span>
+            <span class="btn-icon">&orarr;</span>
+          </button>
+          <button class="btn-secondary" id="btn-back-title">タイトルに戻る</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BGM Now Playing -->
+  <div class="bgm-indicator" id="bgm-indicator">
+    <button class="bgm-mute-btn" id="bgm-mute-btn" title="BGMをOFFにする">&#9835;</button>
+    <span class="bgm-info">
+      <span class="bgm-label">NOW PLAYING</span>
+      <span class="bgm-title" id="bgm-title">深海のゆりかご</span>
+    </span>
+    <input type="range" class="bgm-volume" id="bgm-volume" min="0" max="100" value="40" title="BGM音量">
+  </div>
+
+  <!-- Keyboard hint -->
+  <div class="keyboard-hint" id="keyboard-hint">
+    <span>1-4: 選択</span>
+    <span>Enter: 次へ</span>
+    <span>Esc: 退出</span>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
