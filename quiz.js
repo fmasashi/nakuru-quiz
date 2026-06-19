@@ -783,11 +783,11 @@ const ALL_QUESTIONS = [
     source: "コミケカタログ / M3公式"
   },
   {
-    question: "fengのPCゲーム『空に刻んだパラレログラム』のOP主題歌を歌った藍月なくるの楽曲名は？",
+    question: "ウグイスカグラのPCゲーム『空に刻んだパラレログラム』のOP主題歌を歌った藍月なくるの楽曲名は？",
     choices: ["クオリアの輪郭", "これくらいで", "FAKE IDOL", "何も知らないまま。"],
     correct: 0,
-    explanation: "「クオリアの輪郭」は2018年にfengから発売された美少女ゲーム『空に刻んだパラレログラム』のOP主題歌です。作詞・作曲はめと氏が手がけました。",
-    source: "aitsukinakuru.com / VGMdb"
+    explanation: "「クオリアの輪郭」は2018年12月にウグイスカグラから発売された美少女ゲーム『空に刻んだパラレログラム』のOP主題歌です。作詞・作曲はめと氏が手がけました。なお、藍月なくるはfengの『夢と色でできている』（2019年）でもED主題歌「これくらいで」を担当しており、美少女ゲーム主題歌の歌唱実績が複数あります。",
+    source: "aitsukinakuru.com / Wikipedia"
   },
   {
     question: "Endorfin.の2nd LIVEのタイトルと開催会場は？",
