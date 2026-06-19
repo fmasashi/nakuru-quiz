@@ -1670,8 +1670,8 @@ function selectAnswer(index) {
     state.streak++;
     if (state.streak > state.maxStreak) state.maxStreak = state.streak;
 
-    // Base 100 + 30 per consecutive streak (streak 1=100, 2=130, 3=160, 4=190...)
-    let points = 100 + Math.max(0, (state.streak - 1) * 30);
+    // Base 100 + 30 per streak, capped at 10 streak (370pts max)
+    let points = 100 + Math.min(9, Math.max(0, state.streak - 1)) * 30;
     state.score += points;
 
     dom.score.textContent = state.score;
