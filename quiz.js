@@ -1238,8 +1238,8 @@ const ALL_QUESTIONS = [
     question: "「Nacollection4」が初頒布された即売会は？",
     choices: ["M3-2023秋", "M3-2023春", "コミケC103", "コミケC104"],
     correct: 0,
-    explanation: "『Nacollection4』は2023年のM3秋（12月1日）で初頒布されました。「Cosmodiver」「ルナティッククレイジー」（Cover）「ヘヴンリィ」「閃耀」（Cover）「Monodrate」「トワイライト」の全6曲が収録されています。",
-    source: "YouTube / mysound.jp"
+    explanation: "『Nacollection4』は2023年10月29日のM3-2023秋で初頒布されました（デジタル配信は12月1日）。収録曲は「Cosmodiver」（かそかそ作曲）「ルナティッククレイジー」（Cover）「ヘヴンリィ」（フユウ作曲）「閃耀」（Cover）「Monodrate」「トワイライト」（Feryquitous作曲）の全6曲です。",
+    source: "aitsukinakuru.com / ototoy.jp"
   },
   {
     question: "藍月なくるの全国流通ソロシングル第2弾（両A面）のタイトルは？",
