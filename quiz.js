@@ -1197,7 +1197,6 @@ const ALL_QUESTIONS = [
     explanation: "「Hookah, whoo!」はDECO*27（OTOIRO）がサウンドプロデュース・作詞を、tepe（OTOIRO）が作曲・編曲を担当しました。ヒューマンドラマアドベンチャーゲーム『Hookah Haze（フーカーヘイズ）』の主題歌で、2024年4月27日より配信開始。ゲーム本編は2024年7月11日にSteam/Nintendo Switchで発売されました。",
     source: "hookah-haze.com / famitsu.com"
   },
-  {
   // ===== カテゴリ: MVクリエイター =====
   {
     question: "「エモーション・キャプチャー」のMVイラストを担当した韓国出身のイラストレーターは？",
