@@ -1159,6 +1159,210 @@ const ALL_QUESTIONS = [
     correct: 0,
     explanation: "Endorfin. 2nd LIVE「Cirro.Strato」は2026年9月26日（土）にKanadevia Hall（TOKYO DOME CITY HALL）で開催予定です。開演17:00、終演20:00予定。生バンドメンバー（Gt.三矢禅晃、Ba.Kei Nakamura、Dr.樋口幸佑、Mani.北原純平）も参加する本格的なライブです。",
     source: "aitsukinakuru.com / イープラス"
+  },
+  // ===== カテゴリ: ディスコグラフィー深堀り =====
+  {
+    question: "藍月なくるのアルバム「ミシュメリア」のコンセプトモチーフは？",
+    choices: ["毒花", "深海", "星空", "鏡"],
+    correct: 0,
+    explanation: "『ミシュメリア』（2023年4月30日、M3-2023春頒布）のコンセプトは「甘く美しく貴方を浸食する毒花」。全7曲収録で、bermei.inazawa、グシミヤギヒデユキ、かめりあ、Feryquitous、高城みよなど豪華な作曲陣が参加。Hifumi,inc.との共同制作第2弾として制作されました。",
+    source: "diverse.direct / ototoy.jp"
+  },
+  {
+    question: "「ミシュメリア」でかめりあが作詞・作曲を手がけた楽曲は？",
+    choices: ["Tuliparfeit", "逆沙華", "Fragile Utopia", "Lucid Hallucination"],
+    correct: 0,
+    explanation: "かめりあ（Camellia）が作詞・作曲を手がけた「Tuliparfeit」は『ミシュメリア』の4曲目に収録されています。音楽ゲームで知られるかめりあの楽曲らしい、複雑なリズムと美しいメロディが特徴の一曲です。",
+    source: "diverse.direct / vgmdb.net"
+  },
+  {
+    question: "「ミシュメリア」の表題曲の作曲者は？",
+    choices: ["bermei.inazawa", "グシミヤギヒデユキ", "かめりあ", "Feryquitous"],
+    correct: 0,
+    explanation: "表題曲「ミシュメリア」の作曲はbermei.inazawa、作詞は藍月なくる本人が担当しました。bermei.inazawaは「霧の都の夜想曲」などでも知られるコンポーザーで、毒花というテーマに相応しい妖艶なサウンドを作り上げています。",
+    source: "diverse.direct / vgmdb.net"
+  },
+  {
+    question: "藍月なくるの9thアルバム「ILLUAMOR」のリリース日は？",
+    choices: ["2026年4月26日", "2025年12月1日", "2026年3月1日", "2025年8月31日"],
+    correct: 0,
+    explanation: "『ILLUAMOR（イリュアモール）』は2026年4月26日にリリースされた9thアルバムです。全6曲収録で、Laur、グシミヤギヒデユキ、香椎モイミ、アメリカ民謡研究会、かぼちゃ、みゅー（Imy）が作曲を担当。ジャケットイラストはRato、デザインは喪花が手がけています。",
+    source: "diverse.direct / aitsukinakuru.com"
+  },
+  {
+    question: "「Indigrotto」が初頒布された即売会と時期は？",
+    choices: ["M3-49（2022年春）", "コミケC101（2022年冬）", "M3-2023春", "コミケC99（2021年冬）"],
+    correct: 0,
+    explanation: "『Indigrotto』は2022年4月24日のM3-49（2022年春）で初頒布されたアルバムです。全6曲収録で「Indigrotto」「夢の呼応」「Settlement」「Killer neuron」「Codependence」「Rest in Peace my Dear.」が含まれています。",
+    source: "ototoy.jp / acgjc.com"
+  },
+  {
+    question: "「Nacollection -3-」に収録された楽曲「Azura Luno」の作曲者は？",
+    choices: ["RD-Sounds", "sky_delta", "かめりあ", "bermei.inazawa"],
+    correct: 0,
+    explanation: "「Azura Luno」はRD-Soundsが作曲した楽曲で、『Nacollection -3-』の1曲目に収録されています。1st LIVE「クラリムステラ」のセットリストにも含まれた、なくるのソロ楽曲の中でも特に人気の高い一曲です。",
+    source: "recochoku.jp / note.com"
+  },
+  {
+    question: "「Nacollection4」に収録されている楽曲「Cosmodiver」の作曲者は？",
+    choices: ["かそかそ", "sky_delta", "Akki", "RD-Sounds"],
+    correct: 0,
+    explanation: "「Cosmodiver」はかそかそが作曲、棗いつきが作詞を手がけた楽曲です。『Nacollection4』（2023年12月、M3-2023秋頒布）の1曲目に収録されており、1st LIVE「クラリムステラ」でも披露されました。",
+    source: "dojin-music.info / note.com"
+  },
+  // ===== カテゴリ: ゲームタイアップ =====
+  {
+    question: "アニプレックス販売のゲーム「Hookah Haze」の主題歌「Hookah, whoo!」の作詞を手がけたのは？",
+    choices: ["DECO*27", "tepe", "sky_delta", "堀江晶太"],
+    correct: 0,
+    explanation: "「Hookah, whoo!」はDECO*27（OTOIRO）がサウンドプロデュース・作詞を、tepe（OTOIRO）が作曲・編曲を担当しました。ヒューマンドラマアドベンチャーゲーム『Hookah Haze（フーカーヘイズ）』の主題歌で、2024年4月27日より配信開始。ゲーム本編は2024年7月11日にSteam/Nintendo Switchで発売されました。",
+    source: "hookah-haze.com / famitsu.com"
+  },
+  {
+    question: "藍月なくるが主題歌を歌ったゲーム「Hookah Haze」の開発元は？",
+    choices: ["アクワイア", "フロム・ソフトウェア", "アトラス", "日本ファルコム"],
+    correct: 0,
+    explanation: "『Hookah Haze』はアクワイアが企画・開発し、アニプレックスが販売するヒューマンドラマアドベンチャーゲームです。シーシャ（水タバコ）バーを舞台にした物語で、藍月なくるが歌う主題歌「Hookah, whoo!」が作品の世界観を彩っています。",
+    source: "hookah-haze.com / impress.co.jp"
+  },
+  {
+    question: "藍月なくるの初の全国流通ソロシングル「何も知らないまま。」の作曲者は？",
+    choices: ["Haniwa（アメリカ民謡研究会）", "DECO*27", "sky_delta", "かめりあ"],
+    correct: 0,
+    explanation: "2024年12月18日リリースの初全国流通ソロシングル「何も知らないまま。」は、アメリカ民謡研究会のHaniwaが作曲を手がけました。カップリング曲「キラアメイド」はtepe（OTOIRO）が担当。各曲のインストを含む全4トラック収録です。",
+    source: "aitsukinakuru.com / diverse.direct"
+  },
+  // ===== カテゴリ: MVクリエイター =====
+  {
+    question: "「エモーション・キャプチャー」のMVイラストを担当した韓国出身のイラストレーターは？",
+    choices: ["Nardack", "茲助", "葉丸", "茉宮祈芽"],
+    correct: 0,
+    explanation: "「エモーション・キャプチャー」のイラストはNardackが担当しました。Nardackは韓国出身のイラストレーターで、繊細で幻想的な画風が特徴。MVの映像制作は古渡勧（Hifumi,inc.）が担当しています。",
+    source: "YouTube MV概要欄 / aitsukinakuru.com"
+  },
+  {
+    question: "「フェイク」（Feryquitous feat. 藍月なくる）のMV映像制作を担当したのは？",
+    choices: ["足立柑橘", "沼田ゾンビ", "千金楽らう", "古渡勧"],
+    correct: 0,
+    explanation: "「フェイク」のMV映像は足立柑橘が制作しました。イラストは茲助が担当。Feryquitous（フェリキタス）と藍月なくるのコラボ楽曲で、『Nacollection -3-』にも収録されています。",
+    source: "YouTube MV概要欄"
+  },
+  {
+    question: "「何も知らないまま。」のカップリング曲は？",
+    choices: ["キラアメイド", "FAKE IDOL", "Cosmodiver", "Azura Luno"],
+    correct: 0,
+    explanation: "初の全国流通ソロシングル「何も知らないまま。」のカップリング曲は「キラアメイド」です。キラアメイドのMVではdotMP incがリリック・ロゴデザインを担当しています。",
+    source: "diverse.direct / aitsukinakuru.com"
+  },
+  {
+    question: "「happy palette♪」のMVイラストを担当したのは？",
+    choices: ["茉宮祈芽", "Nardack", "よういち", "葉丸"],
+    correct: 0,
+    explanation: "ハミダシクリエイティブ凸の華乃ルートED曲「happy palette♪」のイラストは茉宮祈芽が担当し、MVは千金楽らうが制作しました。美少女ゲームのED曲らしい、あたたかく優しいビジュアルが特徴です。",
+    source: "YouTube MV概要欄"
+  },
+  // ===== カテゴリ: 配信・エピソード =====
+  {
+    question: "藍月なくるの雑談配信の定番シリーズの通称は？",
+    choices: ["ぐだなく", "なくラジ", "おやなく", "まったりなく"],
+    correct: 0,
+    explanation: "「ぐだなく」は「ぐだぐだな藍月なくる」の略称で、本人がリラックスして雑談やゲームをする配信をファンがそう呼ぶようになりました。楽曲制作の進捗やM3の頒布物の話、ライブの振り返りなど、音楽活動の裏話が聞ける人気コンテンツです。",
+    source: "YouTube配信アーカイブ"
+  },
+  {
+    question: "「Nacollection4」が初頒布された即売会は？",
+    choices: ["M3-2023秋", "M3-2023春", "コミケC103", "コミケC104"],
+    correct: 0,
+    explanation: "『Nacollection4』は2023年のM3秋（12月1日）で初頒布されました。「Cosmodiver」「ルナティッククレイジー」（Cover）「ヘヴンリィ」「閃耀」（Cover）「Monodrate」「トワイライト」の全6曲が収録されています。",
+    source: "YouTube / mysound.jp"
+  },
+  {
+    question: "藍月なくるの全国流通ソロシングル第2弾（両A面）のタイトルは？",
+    choices: ["Poisson Poison／すーぱーだいちゅき♡そばにいてっ", "何も知らないまま。／キラアメイド", "FAKE IDOL／Evil Bubble", "Cosmodiver／Azura Luno"],
+    correct: 0,
+    explanation: "2025年12月24日リリースの全国流通ソロシングル第2弾は「Poisson Poison／すーぱーだいちゅき♡そばにいてっ」の両A面仕様です。「すーぱーだいちゅき♡そばにいてっ」は徳島県すだちそばコラボから生まれたテーマソングで、シングルCDに昇格した形です。",
+    source: "aitsukinakuru.com / diverse.direct"
+  },
+  // ===== カテゴリ: 声優活動・コラボ =====
+  {
+    question: "藍月なくるが声優として「ニーナ」役を担当したゲームは？",
+    choices: ["クリミナルガールズX", "Hookah Haze", "パルティグランデ", "プロジェクトセカイ"],
+    correct: 0,
+    explanation: "藍月なくるはゲーム『クリミナルガールズX』でニーナ役のキャラクターボイスを担当しました。ASMR「炭酸ちゃん」シリーズでの声優活動は有名ですが、ゲームキャラクターのCV出演としてはこちらが代表的な作品です。",
+    source: "dengekionline.com / Wikipedia"
+  },
+  {
+    question: "2025年6月に新江ノ島水族館で開催されたStory Live「JelLaboratory」の会場となったホールは？",
+    choices: ["クラゲファンタジーホール", "相模湾ゾーンホール", "太平洋ホール", "ディスカバリーホール"],
+    correct: 0,
+    explanation: "Story Live「JelLaboratory」は2025年6月7日に新江ノ島水族館のクラゲファンタジーホールで開催されました。クラゲ好きのなくるにとって特別な場所でのライブで、コラボグッズとしてジグソーパズル、アクリルジオラマ、クッキー、パスケース、ピンバッジ、「なくらげミニぬいぐるみ」の全6種が販売されました。",
+    source: "aitsukinakuru.com"
+  },
+  {
+    question: "2024年に藍月なくるがゲーム内コラボしたタイトルと、コラボイベント名は？",
+    choices: ["パルティグランデ「アクアリウムのその先に」", "プロジェクトセカイ「月と星の旋律」", "原神「潮風の歌声」", "ブルーアーカイブ「深海のセレナーデ」"],
+    correct: 0,
+    explanation: "2024年9月30日から10月31日にかけて、ゲーム『パルティグランデ』にて藍月なくるコラボイベント「アクアリウムのその先に」が開催されました。ゲーム内キャラクターとして登場し、限定ガチャも実施されました。",
+    source: "PR TIMES"
+  },
+  // ===== カテゴリ: TVアニメタイアップ =====
+  {
+    question: "藍月なくる＆棗いつきが歌うTVアニメ『LV999の村人』のOPテーマの曲名は？",
+    choices: ["Not a Hero", "Luminous Rage", "約束のリンカネーション", "Mirroring Mirage"],
+    correct: 0,
+    explanation: "2026年7月放送開始のTVアニメ『LV999の村人』のOPテーマ「Not a Hero」を藍月なくる＆棗いつきが歌唱しています。2人の3rdシングルとして2026年8月26日にリリース予定で、アニメイト全国店舗での発売記念イベントも開催されます。",
+    source: "lv999-anime.com / PR TIMES"
+  },
+  {
+    question: "「Not a Hero」（LV999の村人 OP）の作曲者で、LiSA「紅蓮華」の作曲でも知られる人物は？",
+    choices: ["草野華余子", "堀江晶太", "DECO*27", "ryo"],
+    correct: 0,
+    explanation: "「Not a Hero」の作曲は草野華余子が担当しました。草野華余子はLiSAの「紅蓮華」の作曲者としても広く知られています。作詞は棗いつき、編曲はBLACK ALBATROSSが担当。藍月なくると棗いつきにとって、TVアニメのオープニングテーマという大きなステージでの楽曲です。",
+    source: "lv999-anime.com / PR TIMES"
+  },
+  // ===== カテゴリ: TRPG配信 =====
+  {
+    question: "TRPG配信「ACTOR:0」で藍月なくると共演した、にじさんじ所属のVTuberは？",
+    choices: ["周央サンゴ", "月ノ美兎", "葛葉", "社築"],
+    correct: 0,
+    explanation: "クトゥルフ神話TRPG「ACTOR:0」では、しぐれなお、高生紳士、そしてにじさんじ所属の周央サンゴと共演しました。KPはneonが担当。VTuber界隈を超えたコラボレーションで、なくるの演技力の高さが改めて注目された配信です。",
+    source: "YouTube配信アーカイブ / atwiki.jp"
+  },
+  {
+    question: "藍月なくるがTRPGから舞台化された作品「カタシロ」に出演した際の役は？",
+    choices: ["もう一人の患者役", "主人公役", "ナレーション", "医者役"],
+    correct: 0,
+    explanation: "舞台版『カタシロ〜Relive vol.1〜』に「もう一人の患者役」として出演しました。元々TRPG配信で演じていた作品が舞台化されたもので、TRPG出身のパフォーマーとして実際の舞台に立つという珍しい形での出演です。",
+    source: "kai-you.net / 4gamer.net"
+  },
+  // ===== カテゴリ: ILLUAMORクレジット =====
+  {
+    question: "9thアルバム「ILLUAMOR」の表題曲の作曲者は？",
+    choices: ["Laur", "グシミヤギヒデユキ", "香椎モイミ", "みゅー（Imy）"],
+    correct: 0,
+    explanation: "「ILLUAMOR」の表題曲はLaurが作曲・作詞を担当しました。Laurはハードコアやアートコア系の楽曲で知られるコンポーザーで、SOUND VOLTEX等の音楽ゲームにも多数の楽曲を提供しています。アルバムタイトルにもなった表題曲にふさわしい、華やかかつ激しい一曲です。",
+    source: "diverse.direct / aitsukinakuru.com"
+  },
+  {
+    question: "「ILLUAMOR」で藍月なくる自身が作詞を手がけた楽曲は？",
+    choices: ["煌命残滓", "ロマネスクミラージュ", "幻想ラチェット", "なくなっちゃった。"],
+    correct: 0,
+    explanation: "「煌命残滓」は藍月なくる自身が作詞を手がけた楽曲で、作編曲はみゅー（Imy）が担当しました。アルバムのラストを飾る6曲目に配置されており、なくる本人の想いが込められた締めくくりの一曲です。なお、「ロマネスクミラージュ」の作詞は棗いつきが担当しています。",
+    source: "diverse.direct / aitsukinakuru.com"
+  },
+  {
+    question: "「ILLUAMOR」に収録されている「幻想ラチェット」の作曲者は？",
+    choices: ["香椎モイミ", "Laur", "かぼちゃ", "アメリカ民謡研究会"],
+    correct: 0,
+    explanation: "「幻想ラチェット」は香椎モイミが作曲・作詞を手がけた楽曲です。香椎モイミはVOCALOIDプロデューサーとしても活動しており、「初恋日記」など藍月なくるがカバーした楽曲の原曲作者としても知られています。MVではキャラクターデザイン・アニメーションを毒々チモシーが担当しました。",
+    source: "diverse.direct / YouTube"
+  },
+  {
+    question: "「ILLUAMOR」の「ロマネスクミラージュ」の作詞者は？",
+    choices: ["棗いつき", "藍月なくる", "Laur", "グシミヤギヒデユキ"],
+    correct: 0,
+    explanation: "「ロマネスクミラージュ」の作詞は棗いつきが担当しました。作編曲はグシミヤギヒデユキ。La priereやいつきんくるでの活動パートナーである棗いつきが、なくるのソロアルバムに作詞で参加するという、2人の信頼関係が表れた一曲です。",
+    source: "diverse.direct / aitsukinakuru.com"
   }
 ];
 
