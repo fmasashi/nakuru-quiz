@@ -95,23 +95,26 @@
           <h2 class="question-text" id="question-text"></h2>
         </div>
 
-        <!-- Choices -->
-        <div class="choices-area" id="choices-area">
-          <!-- Dynamically generated -->
-        </div>
-
-        <!-- Result / Explanation -->
-        <div class="result-area hidden" id="result-area">
-          <div class="result-icon" id="result-icon"></div>
-          <p class="result-text" id="result-text"></p>
-          <div class="explanation-box" id="explanation-box">
-            <p class="explanation-text" id="explanation-text"></p>
-            <p class="explanation-source" id="explanation-source"></p>
+        <!-- Quiz Body (choices + result side by side on wide screens) -->
+        <div class="quiz-body" id="quiz-body">
+          <!-- Choices -->
+          <div class="choices-area" id="choices-area">
+            <!-- Dynamically generated -->
           </div>
-          <button class="btn-primary btn-next" id="btn-next">
-            <span class="btn-text">次の問題</span>
-            <span class="btn-icon">&rarr;</span>
-          </button>
+
+          <!-- Result / Explanation -->
+          <div class="result-area hidden" id="result-area">
+            <div class="result-icon" id="result-icon"></div>
+            <p class="result-text" id="result-text"></p>
+            <div class="explanation-box" id="explanation-box">
+              <p class="explanation-text" id="explanation-text"></p>
+              <p class="explanation-source" id="explanation-source"></p>
+            </div>
+            <button class="btn-primary btn-next" id="btn-next">
+              <span class="btn-text">次の問題</span>
+              <span class="btn-icon">&rarr;</span>
+            </button>
+          </div>
         </div>
       </div>
     </div>

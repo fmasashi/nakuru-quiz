@@ -1226,6 +1226,7 @@ function cacheDom() {
   dom.questionNumber = document.getElementById('question-number');
   dom.questionText = document.getElementById('question-text');
   dom.choicesArea = document.getElementById('choices-area');
+  dom.quizBody = document.getElementById('quiz-body');
   dom.resultArea = document.getElementById('result-area');
   dom.resultIcon = document.getElementById('result-icon');
   dom.resultText = document.getElementById('result-text');
@@ -1420,6 +1421,7 @@ function loadQuestion() {
   dom.currentQ.textContent = state.currentIndex + 1;
   dom.streak.textContent = state.streak;
   dom.resultArea.classList.add('hidden');
+  if (dom.quizBody) dom.quizBody.classList.remove('answered');
 
   // Update progress
   const pct = (state.currentIndex / state.questions.length) * 100;
@@ -1517,6 +1519,7 @@ function timeUp() {
   dom.explanationText.textContent = q.explanation;
   dom.explanationSource.textContent = q.source || '';
   dom.resultArea.classList.remove('hidden');
+  if (dom.quizBody) dom.quizBody.classList.add('answered');
 
   updateNextButtonText();
   updateProgressAfterAnswer();
@@ -1595,6 +1598,7 @@ function selectAnswer(index) {
   dom.explanationText.textContent = q.explanation;
   dom.explanationSource.textContent = q.source || '';
   dom.resultArea.classList.remove('hidden');
+  if (dom.quizBody) dom.quizBody.classList.add('answered');
   dom.streak.textContent = state.streak;
 
   updateNextButtonText();
