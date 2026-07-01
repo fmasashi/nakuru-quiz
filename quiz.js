@@ -328,13 +328,6 @@ const ALL_QUESTIONS = [
     source: "公式プロフィール / Weblio"
   },
   {
-    question: "Endorfin.（藍月なくる×sky_delta）の代表曲で、SOUND VOLTEXに収録されている楽曲は？",
-    choices: ["Four Leaves", "Blue Moon", "Star Light", "Night Sky"],
-    correct: 0,
-    explanation: "『Four Leaves』はEndorfin.の代表曲の一つで、SOUND VOLTEX IV制作決定記念オリジナル楽曲コンテストで採用されました。sky_deltaの緻密な電子音と藍月なくるの透明感ある歌声が融合した楽曲で、後にjubeatにも移植されるなど、音ゲープレイヤーからの支持が高い一曲です。",
-    source: "BEMANI Wiki / Wikipedia"
-  },
-  {
     question: "藍月なくるのキャッチフレーズとして知られる、活動スタイルを表す言葉は？",
     choices: ["リアルとバーチャルを行き来するシンガー", "月に歌う永遠のシンガー", "二次元から来た歌姫", "ネットの歌の女王"],
     correct: 0,
@@ -375,20 +368,6 @@ const ALL_QUESTIONS = [
     correct: 0,
     explanation: "藍月なくるのファンミーティングは「ファンイーティング」という独特の名称で開催されています。2024年には「ご注文はえいえんに！～深海喫茶なく茶屋へようこそ～」というテーマで、喫茶店風のコンセプトイベントが行われました。",
     source: "aitsukinakuru.com / 公式X"
-  },
-  {
-    question: "Endorfin.の楽曲でCHUNITHMに収録されている楽曲は？",
-    choices: ["Innocent Truth", "Four Leaves", "Resonant Gear", "Azure Destiny"],
-    correct: 0,
-    explanation: "『Innocent Truth』はEndorfin.（藍月なくる×sky_delta）の楽曲で、セガの音楽ゲーム「CHUNITHM」に収録されています。Endorfin.はBEMANIシリーズだけでなく、他の音ゲーメーカーにも幅広く楽曲を提供しています。",
-    source: "CHUNITHM攻略Wiki / ニコニコ大百科"
-  },
-  {
-    question: "Endorfin.のもう一つのSOUND VOLTEX収録曲で、『Four Leaves』とともに知られる楽曲は？",
-    choices: ["Resonant Gear", "Innocent Truth", "Crystal Stream", "Starfall Echo"],
-    correct: 0,
-    explanation: "『Resonant Gear』はEndorfin.のSOUND VOLTEX収録楽曲です。sky_deltaの緻密なサウンドデザインと藍月なくるの透明感ある歌声が融合した、音ゲープレイヤーにも人気の高い一曲です。",
-    source: "BEMANI Wiki 2nd / bemaniwiki.com"
   },
   {
     question: "藍月なくるのYouTubeチャンネル登録者数はおよそ何万人？（2026年時点）",
@@ -538,20 +517,6 @@ const ALL_QUESTIONS = [
     source: "Wikipedia / La priere公式"
   },
   {
-    question: "Endorfin.の楽曲でpop'n musicに収録されているのは？",
-    choices: ["white night story", "Four Leaves", "Resonant Gear", "Innocent Truth"],
-    correct: 0,
-    explanation: "『white night story』はEndorfin.の楽曲で、KONAMIの音楽ゲーム「pop'n music」に収録されています。Endorfin.はSOUND VOLTEX以外のBEMANIシリーズにも幅広く楽曲を提供しています。",
-    source: "BEMANI Wiki / ニコニコ大百科"
-  },
-  {
-    question: "beatmania IIDX 29 CastHourに収録された、藍月なくるがフィーチャリングで参加している楽曲は？",
-    choices: ["Ariah", "Four Leaves", "white night story", "Replica"],
-    correct: 0,
-    explanation: "『Ariah』はsatella feat. 藍月なくる名義で、beatmania IIDX 29 CastHourに収録されている楽曲です。Endorfin.名義以外でも、フィーチャリングボーカルとして多数の音楽ゲーム楽曲に参加しています。",
-    source: "BEMANI Wiki 2nd"
-  },
-  {
     question: "La priereが2021年に実施した、音楽活動における挑戦的な企画は？",
     choices: ["12ヶ月連続新曲リリース", "48時間耐久配信", "100曲カバーマラソン", "全国47都道府県ツアー"],
     correct: 0,
@@ -585,13 +550,6 @@ const ALL_QUESTIONS = [
     correct: 0,
     explanation: "La priereの1st Live Tour「SPLASH the TONE」は、初ワンマンライブ「Three piece!!!」の成功を受けて開催されたツアーです。水をイメージさせるタイトルは、藍月なくるの深海テーマとも親和性のあるネーミングです。",
     source: "Wikipedia / La priere公式"
-  },
-  {
-    question: "Arcaeaに収録されている、Mameyudoufuと藍月なくるのコラボ楽曲は？",
-    choices: ["One Step Closer", "Four Leaves", "Ariah", "Innocent Truth"],
-    correct: 0,
-    explanation: "『One Step Closer』はMameyudoufu × 藍月なくる名義で、lowiroの音楽ゲーム「Arcaea」に収録されています。BEMANIシリーズ以外の音楽ゲームにも活動の幅を広げていることがわかる一曲です。",
-    source: "Arcaea Wiki / VGMdb"
   },
   {
     question: "Endorfin.の1stアルバムのタイトルは？",
@@ -706,13 +664,6 @@ const ALL_QUESTIONS = [
     source: "aitsukinakuru.com / BOOTH"
   },
   {
-    question: "Endorfin.の楽曲『Four Leaves』がSOUND VOLTEX以外に移植された機種は？",
-    choices: ["jubeat", "CHUNITHM", "太鼓の達人", "maimai"],
-    correct: 0,
-    explanation: "『Four Leaves』はFLOOR INFECTIONイベントを通じて2017年3月にjubeatにも収録されました。SOUND VOLTEXとjubeatの両方でプレイ可能です。",
-    source: "BEMANI Wiki"
-  },
-  {
     question: "とみみ庵の「声付き耳かき音を作ってみた」シリーズが終了したのはいつ？",
     choices: ["2018年2月", "2016年12月", "2020年3月", "2019年8月"],
     correct: 0,
@@ -732,13 +683,6 @@ const ALL_QUESTIONS = [
     correct: 0,
     explanation: "シリーズ3作目は『Nacollection -3-』という表記です。1作目「Nacollection!」、2作目「2nd Nacollection!」に続き、ナンバリング表記が毎回異なるのがシリーズの特徴です。",
     source: "BOOTH / aitsukinakuru.com"
-  },
-  {
-    question: "Endorfin.の楽曲『Replica』が最初に収録された音楽ゲームは？",
-    choices: ["MUSECA", "ノスタルジア", "SOUND VOLTEX", "pop'n music"],
-    correct: 0,
-    explanation: "『Replica』はまずKONAMIのMUSECAに収録され、後にノスタルジアにも移植されました。MUSECAのオリジナル楽曲として採用された作品です。",
-    source: "BEMANI Wiki / bemaniwiki.com"
   },
   {
     question: "藍月なくるの活動初期のニコニコ動画での名義は？",
@@ -881,20 +825,6 @@ const ALL_QUESTIONS = [
     source: "aitsukinakuru.com / BOOTH"
   },
   {
-    question: "Endorfin.の楽曲『Four Leaves』がSOUND VOLTEXに初収録されたバージョンは？",
-    choices: ["SOUND VOLTEX IV HEAVENLY HAVEN", "SOUND VOLTEX III", "SOUND VOLTEX EXCEED GEAR", "SOUND VOLTEX II"],
-    correct: 0,
-    explanation: "『Four Leaves』はSOUND VOLTEX IV制作決定記念オリジナル楽曲コンテストで採用され、SOUND VOLTEX IV HEAVENLY HAVENから収録されました。Endorfin.名義としてのSDVX初収録曲です。",
-    source: "BEMANI Wiki"
-  },
-  {
-    question: "beatmania IIDX 29収録曲『Ariah』の作曲者は？",
-    choices: ["satella", "sky_delta", "Mameyudoufu", "Akki"],
-    correct: 0,
-    explanation: "『Ariah』はsatella氏の作曲で、藍月なくるがフィーチャリングボーカルを担当しました。楽曲タイトルはオペラの独唱「アリア」に由来しています。",
-    source: "BEMANI Wiki / bemaniwiki.com"
-  },
-  {
     question: "La priereの2ndアルバムのタイトルは？",
     choices: ["Galaxy Triangle", "Gemini Syndrome", "Chronologue", "Glowings"],
     correct: 0,
@@ -958,34 +888,6 @@ const ALL_QUESTIONS = [
     source: "diverse.direct / VGMdb"
   },
   {
-    question: "Endorfin.の楽曲『Spica』が収録されたアーケード音楽ゲームは？",
-    choices: ["crossbeats REV.", "SOUND VOLTEX", "CHUNITHM", "太鼓の達人"],
-    correct: 0,
-    explanation: "『Spica』はカプコンのアーケード音楽ゲーム「crossbeats REV.」に収録されたEndorfin.の楽曲です。BEMANIシリーズだけでなく、カプコンの音ゲーにも楽曲を提供していることがEndorfin.の活動の幅広さを示しています。",
-    source: "crossbeats REV. Wiki / famitsu.com"
-  },
-  {
-    question: "Endorfin.の楽曲『ココロメソッド』が収録されたゲームは？",
-    choices: ["crossbeats REV. SUNRISE", "SOUND VOLTEX", "pop'n music", "maimai"],
-    correct: 0,
-    explanation: "『ココロメソッド』はカプコンの「crossbeats REV. SUNRISE」に収録されたEndorfin.の楽曲です。「Spica」に続いてcrossbeatsシリーズへの2曲目の提供となりました。",
-    source: "4gamer.net / crossbeats REV. Wiki"
-  },
-  {
-    question: "Endorfin.の楽曲『片翼のディザイア』が最初に収録された音ゲーは？",
-    choices: ["MUSECA", "SOUND VOLTEX", "pop'n music", "jubeat"],
-    correct: 0,
-    explanation: "『片翼のディザイア』はKONAMIの「MUSECA」に最初に収録され、後に「SOUND VOLTEX」にも移植されました。Endorfin.はMUSECAに「Replica」「片翼のディザイア」の2曲を提供しています。",
-    source: "BEMANI Wiki / KONAMI公式"
-  },
-  {
-    question: "Endorfin.の楽曲『Alice's Suitcase』が収録されたArcaeaの楽曲パック名は？",
-    choices: ["Ephemeral Page", "Sunset Radiance", "Vicious Labyrinth", "Black Fate"],
-    correct: 0,
-    explanation: "『Alice's Suitcase』はアルバム『モノローグ・オフ』（2021年）にも収録されている楽曲で、Arcaeaでは「Ephemeral Page」パックに収録されています。不思議の国のアリスをモチーフにした幻想的な楽曲です。",
-    source: "Arcaea Wiki / dojin-music.info"
-  },
-  {
     question: "La priereの4thアルバムのタイトルは？",
     choices: ["Glowings", "Chronologue", "Galaxy Triangle", "Gemini Syndrome"],
     correct: 0,
@@ -1033,20 +935,6 @@ const ALL_QUESTIONS = [
     correct: 0,
     explanation: "La priereの「パッション」担当は棗いつき（イメージカラー: 黄色）です。藍月なくるが「クール」（水色）、nayutaが「キュート」（ピンク）を担当しており、3人がそれぞれ異なる魅力で補い合うバランスの良いユニットです。",
     source: "La priere公式 / Wikipedia"
-  },
-  {
-    question: "Endorfin.の楽曲『蛍火の雪』が収録されたArcaeaの楽曲パック名は？",
-    choices: ["Sunset Radiance", "Ephemeral Page", "Black Fate", "Divided Heart"],
-    correct: 0,
-    explanation: "『蛍火の雪』はArcaeaの「Sunset Radiance」パック（Ver.5.2.6追加）に収録されたEndorfin.の楽曲です。蛍の光と雪を重ねた幻想的なタイトルが印象的で、藍月なくるの繊細な歌声が映える楽曲です。",
-    source: "Arcaea Wiki / wikiwiki.jp"
-  },
-  {
-    question: "Endorfin.の楽曲で、KONAMI以外かつArcaea以外のゲームに収録された初の楽曲は？",
-    choices: ["Spica", "Four Leaves", "Replica", "Innocent Truth"],
-    correct: 0,
-    explanation: "『Spica』はカプコンの「crossbeats REV.」に収録されたEndorfin.初のBEMANI外・Arcaea外の音ゲー収録曲です。これによりEndorfin.はKONAMI以外のゲーム会社にも楽曲提供の幅を広げました。",
-    source: "crossbeats REV. Wiki / famitsu.com"
   },
   {
     question: "La priereの楽曲で2026年1月に配信された、攻撃的なタイトルの楽曲は？",
