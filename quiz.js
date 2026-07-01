@@ -370,11 +370,11 @@ const ALL_QUESTIONS = [
     source: "aitsukinakuru.com / 公式X"
   },
   {
-    question: "藍月なくるのYouTubeチャンネル登録者数はおよそ何万人？（2026年時点）",
-    choices: ["約27万人", "約10万人", "約50万人", "約100万人"],
+    question: "藍月なくるのYouTubeチャンネルが開設された年月は？",
+    choices: ["2017年6月", "2015年4月", "2019年1月", "2013年3月"],
     correct: 0,
-    explanation: "YouTubeチャンネル「藍月なくる / Aitsuki Nakuru」の登録者数は2026年時点で約26〜27万人です。歌ってみた動画やオリジナル楽曲のMV、ライブ映像などが投稿されています。",
-    source: "YouTube / Wikipedia / userlocal.jp"
+    explanation: "藍月なくるのYouTubeチャンネル「藍月なくる / Aitsuki Nakuru」は2017年6月に開設されました。2013年からニコニコ動画で活動していましたが、2017年以降はYouTubeをメインの活動拠点に移行。歌ってみた動画やオリジナル楽曲のMV、ライブ映像などを精力的に投稿しています。",
+    source: "YouTube / Wikipedia"
   },
   {
     question: "藍月なくるが2023年3月にお披露目した、活動の幅を広げる新要素とは？",
@@ -739,13 +739,6 @@ const ALL_QUESTIONS = [
     correct: 0,
     explanation: "Endorfin. 2nd LIVE「Cirro.Strato」は2026年9月26日にKanadevia Hall（TOKYO DOME CITY HALL）で開催予定です。開演17:00、終演20:00予定で、生バンドメンバーも参加する本格的なライブです。",
     source: "aitsukinakuru.com / イープラス"
-  },
-  {
-    question: "藍月なくるのYouTubeチャンネルの総再生回数はおよそ何回？（2026年時点）",
-    choices: ["約1億1000万回", "約3000万回", "約5億回", "約500万回"],
-    correct: 0,
-    explanation: "藍月なくるのYouTubeチャンネル総再生回数は2026年4月時点で約1億1000万回を超えています。歌ってみた動画やオリジナルMV、ライブ映像など幅広いコンテンツが人気です。",
-    source: "YouTube / userlocal.jp"
   },
   {
     question: "Endorfin.のCOLOURSシリーズは全何作？",
