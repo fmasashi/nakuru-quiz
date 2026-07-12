@@ -305,6 +305,28 @@ h1#main-title {
   box-shadow: 0 0 12px rgba(110, 142, 251, 0.12);
 }
 
+/* Settings ignored by the current quiz mode */
+.setting-group.disabled-group {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* Challenge set picker */
+.settings-row.hidden { display: none; }
+
+#challenge-set-options .chip {
+  min-width: 34px;
+  padding: 5px 8px;
+  text-align: center;
+}
+
+.challenge-range {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-top: 8px;
+  text-align: center;
+}
+
 .song-count-info {
   font-size: 0.8rem;
   color: var(--text-muted);

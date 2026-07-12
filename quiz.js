@@ -387,7 +387,7 @@ const ALL_QUESTIONS = [
     question: "藍月なくるのベストアルバムのタイトルは？",
     choices: ["真相", "告白", "深層", "全貌"],
     correct: 0,
-    explanation: "ベストアルバム『真相』は2025年にリリースされた、藍月なくるのソロ活動を振り返る集大成的な作品です。「FAKE IDOL」「Evil Bubble」などの代表的なオリジナル楽曲が収録されており、Nacollectionシリーズやコンセプトアルバムに散らばった人気曲を一枚で聴ける、入門にもおすすめの作品です。",
+    explanation: "ベストアルバム『真相』は2025年10月にリリースされた全10曲の作品です。歴代ライブテーマ曲「クラリムステラ」「ご注文はえいえんに」や、新曲「真相」「Cirsium」、新アレンジの「乖離光(2025 arrange ver)」などを収録した集大成的な一枚です。",
     source: "aitsukinakuru.shop / 公式サイト"
   },
   {
@@ -609,9 +609,9 @@ const ALL_QUESTIONS = [
   },
   {
     question: "とみみ庵のASMRシリーズで、藍月なくる演じる「炭酸ちゃん」が初登場したのは第何回？",
-    choices: ["第26回", "第10回", "第18回", "第33回"],
+    choices: ["第27回", "第10回", "第18回", "第33回"],
     correct: 0,
-    explanation: "「炭酸ちゃん」は「声付き耳かき音を作ってみた26」で初登場しました。青髪の元気なキャラクターで、炭酸を使った頭皮マッサージやシャンプーが特徴です。以降シリーズの人気キャラクターとなりました。",
+    explanation: "「炭酸ちゃん」は「声付き耳かき音を作ってみた27」で初登場しました。青髪の元気なキャラクターで、炭酸を使った頭皮マッサージやシャンプーが特徴です。以降シリーズの人気キャラクターとなりました。",
     source: "ニコニコ動画 / note.com"
   },
   {
@@ -651,7 +651,7 @@ const ALL_QUESTIONS = [
   },
   {
     question: "2024年のファンイーティングのサブタイトルで、喫茶店をテーマにしたのは？",
-    choices: ["ご注文はえいえんに！～深海喫茶なく茶屋～", "月光カフェへようこそ", "深海レストラン", "Blue Moon Dining"],
+    choices: ["ご注文はえいえんに！～深海喫茶なく茶屋へようこそ～", "月光カフェへようこそ", "深海レストラン", "Blue Moon Dining"],
     correct: 0,
     explanation: "2024年のファンイーティングは「ご注文はえいえんに！～深海喫茶なく茶屋へようこそ～」というサブタイトルで、喫茶店風のコンセプトイベントとして開催されました。初回は2024年10月5日にYOKOHAMA COAST garage+で開催。",
     source: "aitsukinakuru.com / 公式X"
@@ -660,7 +660,7 @@ const ALL_QUESTIONS = [
     question: "藍月なくるの6thアルバムのタイトルは？",
     choices: ["Transpain", "Counterfeit", "Nacollection -3-", "JelLaboratory"],
     correct: 0,
-    explanation: "6thアルバム『Transpain』は2020年に発表された作品です。タイトルは「Trans（越える）」と「Pain（痛み）」を組み合わせた造語で、痛みを越えていく感情の変遷をテーマにしたコンセプトアルバム。Nacollectionシリーズのコレクション的な構成とは異なり、一つのテーマを深く掘り下げた意欲作です。",
+    explanation: "6thアルバム『Transpain』は2021年に発表された作品です。タイトルは「Trans（越える）」と「Pain（痛み）」を組み合わせた造語で、痛みを越えていく感情の変遷をテーマにしたコンセプトアルバム。Nacollectionシリーズのコレクション的な構成とは異なり、一つのテーマを深く掘り下げた意欲作です。",
     source: "aitsukinakuru.com / BOOTH"
   },
   {
@@ -889,9 +889,9 @@ const ALL_QUESTIONS = [
   },
   {
     question: "La priereが2021年に実施した12ヶ月連続新曲リリース企画は、何月から何月まで？",
-    choices: ["1月から12月", "4月から翌3月", "7月から翌6月", "10月から翌9月"],
+    choices: ["4月から翌3月", "1月から12月", "7月から翌6月", "10月から翌9月"],
     correct: 0,
-    explanation: "La priereは2021年の1月から12月まで毎月1曲ずつ新曲をリリースし続けるという挑戦的な企画を完遂しました。12曲全てが異なるテイストの楽曲で、ユニットの音楽的な幅広さを示すとともに、制作力の高さを証明しました。",
+    explanation: "La priereは2021年3月26日に12ヶ月連続リリースを発表し、2021年4月から2022年3月まで毎月1曲ずつ新曲をリリースし続けるという挑戦的な企画を完遂しました。12曲全てが異なるテイストの楽曲で、ユニットの音楽的な幅広さを示すとともに、制作力の高さを証明しました。",
     source: "Wikipedia / La priere公式"
   },
   {
@@ -930,10 +930,10 @@ const ALL_QUESTIONS = [
     source: "La priere公式 / Wikipedia"
   },
   {
-    question: "La priereの楽曲で2026年1月に配信された、攻撃的なタイトルの楽曲は？",
+    question: "La priereの楽曲で2026年2月に配信された、攻撃的なタイトルの楽曲は？",
     choices: ["バッドビートベイビー", "Aftertide", "Ritus Inanis", "Nautical Star"],
     correct: 0,
-    explanation: "「バッドビートベイビー」は2026年1月に配信されたLa priereのシングル楽曲です。従来の美しいハーモニー路線に加え、パンチの効いたタイトルと楽曲でユニットの新たな一面を見せました。",
+    explanation: "「バッドビートベイビー」は2026年2月9日に配信されたLa priereのシングル楽曲です。従来の美しいハーモニー路線に加え、パンチの効いたタイトルと楽曲でユニットの新たな一面を見せました。",
     source: "La priere公式 / Apple Music"
   },
   {
@@ -1081,14 +1081,14 @@ const ALL_QUESTIONS = [
   // ===== カテゴリ: MVクリエイター =====
   {
     question: "「エモーション・キャプチャー」のMVイラストを担当した韓国出身のイラストレーターは？",
-    choices: ["Nardack", "茲助", "葉丸", "茉宮祈芽"],
+    choices: ["Nardack", "茲助", "葉丸", "茉宮祈芹"],
     correct: 0,
-    explanation: "「エモーション・キャプチャー」のイラストはNardackが担当しました。Nardackは韓国出身のイラストレーターで、繊細で幻想的な画風が特徴。MVの映像制作は古渡勧（Hifumi,inc.）が担当しています。",
+    explanation: "「エモーション・キャプチャー」のイラストはNardackが担当しました。Nardackは韓国出身のイラストレーターで、繊細で幻想的な画風が特徴。MVの映像制作は古清水勇輝（Hifumi,inc.）が担当しています。",
     source: "YouTube MV概要欄 / aitsukinakuru.com"
   },
   {
     question: "「フェイク」（Feryquitous feat. 藍月なくる）のMV映像制作を担当したのは？",
-    choices: ["足立柑橘", "沼田ゾンビ", "千金楽らう", "古渡勧"],
+    choices: ["足立柑橘", "沼田ゾンビ", "千金楽らう", "古清水勇輝"],
     correct: 0,
     explanation: "「フェイク」のMV映像は足立柑橘が制作し、イラストは茲助が担当しました。Feryquitous（フェリキタス）と藍月なくるのコラボ楽曲で、『Nacollection -3-』にも収録。Feryquitousは「月詠に鳴る」（CHUNITHM収録）でもなくるとコラボしており、音楽ゲーム界での繋がりが深いコンポーザーです。",
     source: "YouTube MV概要欄"
@@ -1102,9 +1102,9 @@ const ALL_QUESTIONS = [
   },
   {
     question: "「happy palette♪」のMVイラストを担当したのは？",
-    choices: ["茉宮祈芽", "Nardack", "よういち", "葉丸"],
+    choices: ["茉宮祈芹", "Nardack", "よういち", "葉丸"],
     correct: 0,
-    explanation: "ハミダシクリエイティブ凸の華乃ルートED曲「happy palette♪」のイラストは茉宮祈芽が担当し、MVは千金楽らうが制作しました。美少女ゲームのED曲らしい、あたたかく優しいビジュアルが特徴です。",
+    explanation: "ハミダシクリエイティブ凸の華乃ルートED曲「happy palette♪」のイラストは茉宮祈芹が担当し、MVは千金楽らうが制作しました。美少女ゲームのED曲らしい、あたたかく優しいビジュアルが特徴です。",
     source: "YouTube MV概要欄"
   },
   // ===== カテゴリ: 配信・エピソード =====
@@ -1148,7 +1148,7 @@ const ALL_QUESTIONS = [
     question: "2024年に藍月なくるがゲーム内コラボしたタイトルと、コラボイベント名は？",
     choices: ["パルティグランデ「アクアリウムのその先に」", "プロジェクトセカイ「月と星の旋律」", "原神「潮風の歌声」", "ブルーアーカイブ「深海のセレナーデ」"],
     correct: 0,
-    explanation: "2024年9月30日から10月31日にかけて、リズムゲーム『パルティグランデ』にて藍月なくるコラボイベント「アクアリウムのその先に」が開催されました。なくるがゲーム内キャラクターとして登場し、限定ガチャ「アクアリウムのその先に」でコラボ限定カードが入手可能に。さらにコラボ楽曲もゲーム内に収録され、プレイできるようになりました。クラゲやアクアリウムをモチーフにした、なくるらしいコラボ内容が話題を呼びました。",
+    explanation: "2024年9月30日から10月31日にかけて、デッキ構築型の美少女カードバトルRPG『パルティグランデ』（旧・奏でて女子校）にて、藍月なくる＆棗いつきの2人同時コラボイベント「アクアリウムのその先に」が開催されました。両名がゲーム内キャラクターとして登場し、ピックアップガチャ「アクアリウムのその先に」でコラボ限定キャラが入手可能になったほか、テーマイベントやコラボ記念ログインボーナスも実施。クラゲやアクアリウムをモチーフにした、なくるらしいコラボ内容が話題を呼びました。",
     source: "PR TIMES"
   },
   // ===== カテゴリ: TVアニメタイアップ =====
@@ -1184,6 +1184,8 @@ const ALL_QUESTIONS = [
 ];
 
 // ===== State =====
+const CHALLENGE_SET_SIZE = 10;
+
 const state = {
   questions: [],
   currentIndex: 0,
@@ -1196,9 +1198,8 @@ const state = {
   timePerQuestion: 20,
   timer: null,
   timeLeft: 0,
-  questionStartTime: 0,
-  answerTimes: [],
-  quizStartTime: 0,
+  quizMode: 'random',       // random, sequential, challenge
+  challengeSet: 0,
 };
 
 // ===== DOM =====
@@ -1209,6 +1210,11 @@ function cacheDom() {
   dom.totalQuestionsDisplay = document.getElementById('total-questions');
   dom.countOptions = document.querySelectorAll('#count-options .chip');
   dom.timeOptions = document.querySelectorAll('#time-options .chip');
+  dom.modeOptions = document.querySelectorAll('#mode-options .chip');
+  dom.challengeRow = document.getElementById('challenge-row');
+  dom.challengeSetOptions = document.getElementById('challenge-set-options');
+  dom.challengeRange = document.getElementById('challenge-range');
+  dom.countGroup = document.getElementById('count-group');
   dom.score = document.getElementById('score');
   dom.currentQ = document.getElementById('current-q');
   dom.totalQ = document.getElementById('total-q');
@@ -1243,6 +1249,7 @@ function init() {
   cacheDom();
   loadBGMSettings();
   dom.totalQuestionsDisplay.textContent = ALL_QUESTIONS.length;
+  generateChallengeSetButtons();
   // Sync volume slider
   const volSlider = document.getElementById('bgm-volume');
   if (volSlider) volSlider.value = Math.round(bgm.userVolume / 0.001);
@@ -1271,10 +1278,7 @@ function bindEvents() {
   dom.btnStart.addEventListener('click', startQuiz);
   dom.btnNext.addEventListener('click', nextQuestion);
   dom.btnQuit.addEventListener('click', quitQuiz);
-  dom.btnRestart.addEventListener('click', () => {
-    resetState();
-    startQuiz();
-  });
+  dom.btnRestart.addEventListener('click', startQuiz);
   dom.btnBackTitle.addEventListener('click', () => {
     resetState();
     playBGM('title');
@@ -1285,6 +1289,16 @@ function bindEvents() {
   document.getElementById('bgm-mute-btn').addEventListener('click', toggleBGMMute);
   document.getElementById('bgm-volume').addEventListener('input', (e) => {
     setBGMVolume(parseInt(e.target.value) * 0.001);
+  });
+
+  // Quiz mode options
+  dom.modeOptions.forEach(btn => {
+    btn.addEventListener('click', () => {
+      dom.modeOptions.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      state.quizMode = btn.dataset.mode;
+      updateModeUI();
+    });
   });
 
   // Count options
@@ -1339,7 +1353,6 @@ function handleKeydown(e) {
   } else if (screenId === 'screen-result') {
     if (e.code === 'Enter') {
       e.preventDefault();
-      resetState();
       startQuiz();
     }
   }
@@ -1370,21 +1383,75 @@ function pickRandom(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
+// ===== Ordered Modes (sequential / challenge) =====
+function isOrderedMode() {
+  return state.quizMode === 'sequential' || state.quizMode === 'challenge';
+}
+
+// Split ALL_QUESTIONS into sets of CHALLENGE_SET_SIZE; a short remainder is merged into the last set
+function getChallengeSets() {
+  const sets = [];
+  for (let start = 0; start < ALL_QUESTIONS.length; start += CHALLENGE_SET_SIZE) {
+    sets.push({ start, end: Math.min(start + CHALLENGE_SET_SIZE, ALL_QUESTIONS.length) });
+  }
+  if (sets.length > 1 && sets[sets.length - 1].end - sets[sets.length - 1].start < CHALLENGE_SET_SIZE) {
+    const last = sets.pop();
+    sets[sets.length - 1].end = last.end;
+  }
+  return sets;
+}
+
+function generateChallengeSetButtons() {
+  const sets = getChallengeSets();
+  dom.challengeSetOptions.innerHTML = '';
+  sets.forEach((set, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'chip' + (i === state.challengeSet ? ' active' : '');
+    btn.textContent = i + 1;
+    btn.title = `Q${set.start + 1}〜Q${set.end}`;
+    btn.addEventListener('click', () => {
+      state.challengeSet = i;
+      dom.challengeSetOptions.querySelectorAll('.chip').forEach((b, j) => b.classList.toggle('active', j === i));
+      updateChallengeRange();
+    });
+    dom.challengeSetOptions.appendChild(btn);
+  });
+  updateChallengeRange();
+}
+
+function updateChallengeRange() {
+  const set = getChallengeSets()[state.challengeSet];
+  dom.challengeRange.textContent = `セット${state.challengeSet + 1}: Q${set.start + 1}〜Q${set.end} (${set.end - set.start}問)`;
+}
+
+// Grey out the count setting in ordered modes, and show/hide the set picker
+function updateModeUI() {
+  dom.challengeRow.classList.toggle('hidden', state.quizMode !== 'challenge');
+  dom.countGroup.classList.toggle('disabled-group', isOrderedMode());
+}
+
 // ===== Quiz Logic =====
 function startQuiz() {
   initAudio();
   resetState();
 
-  // Select and shuffle questions (0 = all)
-  const count = state.totalQuestions > 0 ? state.totalQuestions : ALL_QUESTIONS.length;
-  const selected = shuffle(ALL_QUESTIONS).slice(0, count);
+  // Build the question list by mode (choices are always shuffled)
+  let selected;
+  if (state.quizMode === 'sequential') {
+    selected = [...ALL_QUESTIONS];
+  } else if (state.quizMode === 'challenge') {
+    const set = getChallengeSets()[state.challengeSet];
+    selected = ALL_QUESTIONS.slice(set.start, set.end);
+  } else {
+    const count = state.totalQuestions > 0 ? state.totalQuestions : ALL_QUESTIONS.length;
+    selected = shuffle(ALL_QUESTIONS).slice(0, count);
+  }
   state.questions = selected.map(q => {
     const correctAnswer = q.choices[q.correct];
     const shuffledChoices = shuffle(q.choices);
     return { ...q, choices: shuffledChoices, correct: shuffledChoices.indexOf(correctAnswer) };
   });
 
-  state.quizStartTime = Date.now();
   dom.totalQ.textContent = state.questions.length;
 
   showScreen('quiz');
@@ -1402,7 +1469,6 @@ function resetState() {
   state.maxStreak = 0;
   state.correctCount = 0;
   state.answered = false;
-  state.answerTimes = [];
 }
 
 function loadQuestion() {
@@ -1456,19 +1522,12 @@ function loadQuestion() {
 }
 
 function startTimer() {
-  if (state.timePerQuestion <= 0) {
-    // No time limit
-    dom.timerFill.style.width = '100%';
-    dom.timerFill.classList.remove('warning', 'danger');
-    state.questionStartTime = Date.now();
-    return;
-  }
-
-  state.timeLeft = state.timePerQuestion * 10;
   dom.timerFill.style.width = '100%';
   dom.timerFill.classList.remove('warning', 'danger');
-  state.questionStartTime = Date.now();
 
+  if (state.timePerQuestion <= 0) return; // No time limit
+
+  state.timeLeft = state.timePerQuestion * 10;
   clearInterval(state.timer);
   state.timer = setInterval(() => {
     state.timeLeft--;
@@ -1490,29 +1549,30 @@ function startTimer() {
   }, 100);
 }
 
-function timeUp() {
-  if (state.answered) return;
-  state.answered = true;
-  state.streak = 0;
-  state.answerTimes.push(state.timePerQuestion);
-
+// Shared end-of-question flow: shows icon/message/explanation and updates the UI.
+// selectedIndex is null on timeout (no choice to mark as wrong).
+function revealAnswer(selectedIndex, iconHTML, message, textClass) {
   const q = state.questions[state.currentIndex];
-  const choiceBtns = dom.choicesArea.querySelectorAll('.choice-btn');
+  const isCorrect = selectedIndex === q.correct;
 
-  choiceBtns.forEach((btn, i) => {
+  dom.choicesArea.querySelectorAll('.choice-btn').forEach((btn, i) => {
     btn.disabled = true;
-    if (i === q.correct) btn.classList.add('correct-answer');
+    if (i === q.correct) {
+      btn.classList.add(isCorrect ? 'correct' : 'correct-answer');
+    }
+    if (i === selectedIndex && !isCorrect) {
+      btn.classList.add('wrong');
+    }
   });
 
-  playSE('wrong');
-
-  dom.resultIcon.innerHTML = '<span class="icon-timeout">!</span>';
-  dom.resultText.textContent = '時間切れ';
-  dom.resultText.className = 'result-text timeout';
+  dom.resultIcon.innerHTML = iconHTML;
+  dom.resultText.textContent = message;
+  dom.resultText.className = `result-text ${textClass}`;
   dom.explanationText.textContent = q.explanation;
   dom.explanationSource.textContent = q.source || '';
   dom.resultArea.classList.remove('hidden');
   if (dom.quizBody) dom.quizBody.classList.add('answered');
+  dom.streak.textContent = state.streak;
 
   updateNextButtonText();
   updateProgressAfterAnswer();
@@ -1522,8 +1582,15 @@ function timeUp() {
   dom.resultIcon.style.animation = 'none';
   void dom.resultIcon.offsetWidth;
   dom.resultIcon.style.animation = '';
+}
 
-  dom.streak.textContent = state.streak;
+function timeUp() {
+  if (state.answered) return;
+  state.answered = true;
+  state.streak = 0;
+
+  playSE('wrong');
+  revealAnswer(null, '<span class="icon-timeout">!</span>', '時間切れ', 'timeout');
 }
 
 function selectAnswer(index) {
@@ -1533,21 +1600,8 @@ function selectAnswer(index) {
   clearInterval(state.timer);
 
   const q = state.questions[state.currentIndex];
-  const timeTaken = (Date.now() - state.questionStartTime) / 1000;
-  state.answerTimes.push(timeTaken);
-
   const isCorrect = index === q.correct;
-  const choiceBtns = dom.choicesArea.querySelectorAll('.choice-btn');
-
-  choiceBtns.forEach((btn, i) => {
-    btn.disabled = true;
-    if (i === q.correct) {
-      btn.classList.add(isCorrect ? 'correct' : 'correct-answer');
-    }
-    if (i === index && !isCorrect) {
-      btn.classList.add('wrong');
-    }
-  });
+  let iconHTML, message, textClass;
 
   if (isCorrect) {
     state.correctCount++;
@@ -1555,53 +1609,33 @@ function selectAnswer(index) {
     if (state.streak > state.maxStreak) state.maxStreak = state.streak;
 
     // Base 100 + 30 per streak, capped at 10 streak (370pts max)
-    let points = 100 + Math.min(9, Math.max(0, state.streak - 1)) * 30;
+    const points = 100 + Math.min(9, state.streak - 1) * 30;
     state.score += points;
 
     dom.score.textContent = state.score;
-    const streakBonus = (state.streak - 1) * 30;
-    if (streakBonus > 0) {
-      showScorePopup(`+${points} (${state.streak}連続!)`);
-    } else {
-      showScorePopup(`+${points}`);
-    }
+    showScorePopup(state.streak >= 2 ? `+${points} (${state.streak}連続!)` : `+${points}`);
 
     if (state.streak >= 3) {
-      dom.resultIcon.innerHTML = `<span class="icon-streak">${state.streak}</span>`;
+      iconHTML = `<span class="icon-streak">${state.streak}</span>`;
       playSE('streak');
     } else {
-      dom.resultIcon.innerHTML = '<span class="icon-correct">&#10003;</span>';
+      iconHTML = '<span class="icon-correct">&#10003;</span>';
       playSE('correct');
     }
 
-    const messages = ['正解！', 'すごい！', 'さすが！', 'パーフェクト！'];
-    dom.resultText.textContent = state.streak >= 3
+    message = state.streak >= 3
       ? `${state.streak}連続正解！ +${points}pts`
-      : pickRandom(messages);
-    dom.resultText.className = 'result-text correct';
+      : pickRandom(['正解！', 'すごい！', 'さすが！', 'パーフェクト！']);
+    textClass = 'correct';
   } else {
     state.streak = 0;
-    dom.resultIcon.innerHTML = '<span class="icon-wrong">&times;</span>';
-    const messages = ['残念...', 'おしい！', 'ドンマイ！'];
-    dom.resultText.textContent = pickRandom(messages);
-    dom.resultText.className = 'result-text wrong';
+    iconHTML = '<span class="icon-wrong">&times;</span>';
+    message = pickRandom(['残念...', 'おしい！', 'ドンマイ！']);
+    textClass = 'wrong';
     playSE('wrong');
   }
 
-  dom.explanationText.textContent = q.explanation;
-  dom.explanationSource.textContent = q.source || '';
-  dom.resultArea.classList.remove('hidden');
-  if (dom.quizBody) dom.quizBody.classList.add('answered');
-  dom.streak.textContent = state.streak;
-
-  updateNextButtonText();
-  updateProgressAfterAnswer();
-  scrollToResult();
-
-  // Re-trigger animation
-  dom.resultIcon.style.animation = 'none';
-  void dom.resultIcon.offsetWidth;
-  dom.resultIcon.style.animation = '';
+  revealAnswer(index, iconHTML, message, textClass);
 }
 
 function showScorePopup(text) {
@@ -1640,8 +1674,7 @@ function nextQuestion() {
 }
 
 function quitQuiz() {
-  clearInterval(state.timer);
-  resetState();
+  resetState(); // also clears the question timer
   playBGM('title');
   showScreen('start');
 }

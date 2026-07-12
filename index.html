@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260702a">
+  <link rel="stylesheet" href="style.css?v=20260712a">
 </head>
 <body>
   <div class="bg-effects">
@@ -32,9 +32,32 @@
         </div>
         <p class="description">藍月なくるにまつわるエピソードや<br>豆知識を4択クイズで出題！</p>
 
+        <!-- Quiz Mode -->
+        <div class="settings-row">
+          <div class="setting-group">
+            <p class="label">出題モード</p>
+            <div class="chip-options" id="mode-options">
+              <button class="chip active" data-mode="random">ランダム</button>
+              <button class="chip" data-mode="sequential">順番プレイ</button>
+              <button class="chip" data-mode="challenge">チャレンジ</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Challenge Set Picker (visible only in challenge mode) -->
+        <div class="settings-row hidden" id="challenge-row">
+          <div class="setting-group">
+            <p class="label">チャレンジセット（10問ずつ）</p>
+            <div class="chip-options" id="challenge-set-options">
+              <!-- Set buttons are dynamically generated -->
+            </div>
+            <p class="challenge-range" id="challenge-range"></p>
+          </div>
+        </div>
+
         <!-- Settings -->
         <div class="settings-row dual">
-          <div class="setting-group">
+          <div class="setting-group" id="count-group">
             <p class="label">出題数</p>
             <div class="chip-options" id="count-options">
               <button class="chip active" data-count="10">10問</button>
@@ -177,6 +200,6 @@
     <span>Esc: 退出</span>
   </div>
 
-  <script src="quiz.js?v=20260702a"></script>
+  <script src="quiz.js?v=20260712a"></script>
 </body>
 </html>
