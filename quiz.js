@@ -1279,11 +1279,7 @@ function bindEvents() {
   dom.btnNext.addEventListener('click', nextQuestion);
   dom.btnQuit.addEventListener('click', quitQuiz);
   dom.btnRestart.addEventListener('click', startQuiz);
-  dom.btnBackTitle.addEventListener('click', () => {
-    resetState();
-    playBGM('title');
-    showScreen('start');
-  });
+  dom.btnBackTitle.addEventListener('click', quitQuiz);
 
   // BGM controls
   document.getElementById('bgm-mute-btn').addEventListener('click', toggleBGMMute);
@@ -1480,7 +1476,7 @@ function loadQuestion() {
   dom.currentQ.textContent = state.currentIndex + 1;
   dom.streak.textContent = state.streak;
   dom.resultArea.classList.add('hidden');
-  if (dom.quizBody) dom.quizBody.classList.remove('answered');
+  dom.quizBody.classList.remove('answered');
 
   // Update progress
   const pct = (state.currentIndex / state.questions.length) * 100;
@@ -1571,12 +1567,13 @@ function revealAnswer(selectedIndex, iconHTML, message, textClass) {
   dom.explanationText.textContent = q.explanation;
   dom.explanationSource.textContent = q.source || '';
   dom.resultArea.classList.remove('hidden');
-  if (dom.quizBody) dom.quizBody.classList.add('answered');
+  dom.quizBody.classList.add('answered');
   dom.streak.textContent = state.streak;
 
-  updateNextButtonText();
-  updateProgressAfterAnswer();
-  scrollToResult();
+  const isLast = state.currentIndex === state.questions.length - 1;
+  dom.btnNext.querySelector('.btn-text').textContent = isLast ? '結果を見る' : '次の問題';
+  dom.progressFill.style.width = `${((state.currentIndex + 1) / state.questions.length) * 100}%`;
+  dom.resultArea.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 
   // Re-trigger animation
   dom.resultIcon.style.animation = 'none';
@@ -1644,24 +1641,6 @@ function showScorePopup(text) {
   popup.textContent = text;
   document.body.appendChild(popup);
   setTimeout(() => popup.remove(), 1000);
-}
-
-function updateNextButtonText() {
-  const btnText = dom.btnNext.querySelector('.btn-text');
-  if (state.currentIndex === state.questions.length - 1) {
-    btnText.textContent = '結果を見る';
-  } else {
-    btnText.textContent = '次の問題';
-  }
-}
-
-function updateProgressAfterAnswer() {
-  const pct = ((state.currentIndex + 1) / state.questions.length) * 100;
-  dom.progressFill.style.width = `${pct}%`;
-}
-
-function scrollToResult() {
-  dom.resultArea.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
 function nextQuestion() {
