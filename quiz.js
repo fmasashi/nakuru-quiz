@@ -62,7 +62,7 @@ function playSE(type) {
 
 // ===== BGM System (Multi-track Procedural Ambient) =====
 const bgm = {
-  playing: false, currentTrack: null, nodes: [], intervals: [], timeouts: [],
+  playing: false, currentTrack: null, nodes: [], padTimer: null, arpTimer: null,
   masterGain: null, userVolume: 0.04, muted: false,
 };
 
@@ -167,18 +167,14 @@ function playBGM(trackId) {
     o.start(now); o.stop(now+3.5);
   }
   padChord();
-  const pi = setInterval(() => {
-    if (!bgm.playing || bgm.currentTrack !== trackId) { clearInterval(pi); return; }
-    padChord();
-  }, t.padInterval);
-  bgm.intervals.push(pi);
+  bgm.padTimer = setInterval(padChord, t.padInterval);
+  // Only one arp timeout is ever pending, so a single handle is enough
   function schedArp() {
     if (!bgm.playing || bgm.currentTrack !== trackId) return;
     const d = t.arpMin + Math.random() * t.arpRand;
-    const tid = setTimeout(() => { arpNote(); schedArp(); }, d);
-    bgm.timeouts.push(tid);
+    bgm.arpTimer = setTimeout(() => { arpNote(); schedArp(); }, d);
   }
-  bgm.timeouts.push(setTimeout(schedArp, 2000));
+  bgm.arpTimer = setTimeout(schedArp, 2000);
   // Update track name display
   const titleEl = document.getElementById('bgm-title');
   if (titleEl) titleEl.textContent = t.name;
@@ -187,9 +183,8 @@ function playBGM(trackId) {
 
 function stopBGM() {
   bgm.playing = false; bgm.currentTrack = null;
-  bgm.intervals.forEach(id => clearInterval(id));
-  bgm.timeouts.forEach(id => clearTimeout(id));
-  bgm.intervals = []; bgm.timeouts = [];
+  clearInterval(bgm.padTimer); clearTimeout(bgm.arpTimer);
+  bgm.padTimer = null; bgm.arpTimer = null;
   bgm.nodes.forEach(n => {
     if (n && n.stop) try { n.stop(); } catch(e) {}
     if (n && n.disconnect) try { n.disconnect(); } catch(e) {}
@@ -1270,8 +1265,8 @@ function init() {
     document.removeEventListener('click', initAndPlay);
     document.removeEventListener('keydown', initAndPlay);
   };
-  document.addEventListener('click', initAndPlay, { once: false });
-  document.addEventListener('keydown', initAndPlay, { once: false });
+  document.addEventListener('click', initAndPlay);
+  document.addEventListener('keydown', initAndPlay);
 }
 
 function bindEvents() {
