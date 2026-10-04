@@ -1315,6 +1315,7 @@ function bindEvents() {
 }
 
 function handleKeydown(e) {
+  if (e.repeat) return;  // a held key shouldn't keep re-firing actions
   const activeScreen = document.querySelector('.screen.active');
   if (!activeScreen) return;
   const screenId = activeScreen.id;
