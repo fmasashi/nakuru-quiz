@@ -91,19 +91,28 @@ const BGM_TRACKS = {
   },
 };
 
+// One ConvolverNode per (duration, decay), built on first use and reused across track
+// switches: generating the impulse and letting the convolver pre-process it costs ~50ms
+// of main-thread time, which used to happen on every screen change
+const reverbNodes = new Map();
+
 function createReverb(ctx, duration, decay) {
-  const rate = ctx.sampleRate;
-  const length = rate * duration;
-  const impulse = ctx.createBuffer(2, length, rate);
-  for (let ch = 0; ch < 2; ch++) {
-    const data = impulse.getChannelData(ch);
-    for (let i = 0; i < length; i++) {
-      data[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / length, decay);
+  const key = `${duration}:${decay}`;
+  if (!reverbNodes.has(key)) {
+    const rate = ctx.sampleRate;
+    const length = rate * duration;
+    const impulse = ctx.createBuffer(2, length, rate);
+    for (let ch = 0; ch < 2; ch++) {
+      const data = impulse.getChannelData(ch);
+      for (let i = 0; i < length; i++) {
+        data[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / length, decay);
+      }
     }
+    const convolver = ctx.createConvolver();
+    convolver.buffer = impulse;
+    reverbNodes.set(key, convolver);
   }
-  const convolver = ctx.createConvolver();
-  convolver.buffer = impulse;
-  return convolver;
+  return reverbNodes.get(key);
 }
 
 function playBGM(trackId) {
@@ -1269,6 +1278,11 @@ function init() {
   document.addEventListener('keydown', initAndPlay);
 }
 
+// Mark one chip in a group as active
+function activateChip(group, chip) {
+  group.forEach(b => b.classList.toggle('active', b === chip));
+}
+
 function bindEvents() {
   dom.btnStart.addEventListener('click', startQuiz);
   dom.btnNext.addEventListener('click', nextQuestion);
@@ -1285,8 +1299,7 @@ function bindEvents() {
   // Quiz mode options
   dom.modeOptions.forEach(btn => {
     btn.addEventListener('click', () => {
-      dom.modeOptions.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
+      activateChip(dom.modeOptions, btn);
       state.quizMode = btn.dataset.mode;
       updateModeUI();
     });
@@ -1295,8 +1308,7 @@ function bindEvents() {
   // Count options
   dom.countOptions.forEach(btn => {
     btn.addEventListener('click', () => {
-      dom.countOptions.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
+      activateChip(dom.countOptions, btn);
       state.totalQuestions = parseInt(btn.dataset.count);
     });
   });
@@ -1304,8 +1316,7 @@ function bindEvents() {
   // Time options
   dom.timeOptions.forEach(btn => {
     btn.addEventListener('click', () => {
-      dom.timeOptions.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
+      activateChip(dom.timeOptions, btn);
       state.timePerQuestion = parseInt(btn.dataset.time);
     });
   });
@@ -1403,7 +1414,7 @@ function generateChallengeSetButtons() {
     btn.title = `Q${set.start + 1}〜Q${set.end}`;
     btn.addEventListener('click', () => {
       state.challengeSet = i;
-      dom.challengeSetOptions.querySelectorAll('.chip').forEach((b, j) => b.classList.toggle('active', j === i));
+      activateChip(dom.challengeSetOptions.querySelectorAll('.chip'), btn);
       updateChallengeRange();
     });
     dom.challengeSetOptions.appendChild(btn);

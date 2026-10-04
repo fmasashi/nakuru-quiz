@@ -1242,3 +1242,8 @@ h1#main-title {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 2px;
 }
+
+/* Respect the OS "reduce motion" setting: stop the decorative background animation */
+@media (prefers-reduced-motion: reduce) {
+  .orb, .jellyfish { animation: none; }
+}
